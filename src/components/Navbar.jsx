@@ -44,7 +44,7 @@ const Navbar = () => {
       <div id="sites" className=" hidden md:flex md:w-[50%] ">
         <ul className="flex w-full   justify-center items-center md:gap-4 lg:gap-8">
           {links.map((link) => (
-            <li key={link.id} className="flex justify-center items-center">
+            <li id={link.id} key={link.id} className="flex justify-center items-center">
               <a href={link.path} className="text-sm md:text-md lg:text-lg text-[#EDEFE1] font-bold ">{link.label}</a>
             </li>
           ))}
