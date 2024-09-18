@@ -8,9 +8,6 @@ function clickTarjeta (itemId) {
   const texto = document.getElementById(`contenedorTexto${itemId}`)
   const contenedor = document.getElementById(`contenedor${itemId}`)
 
-  console.log(`imagen ${tarjeta}`)
-  console.log(`imagen ${imagen}`)
-  console.log(`texto ${texto}`)
 
   texto.classList.toggle("hidden")
   contenedor.classList.toggle("contenedorCerrado");

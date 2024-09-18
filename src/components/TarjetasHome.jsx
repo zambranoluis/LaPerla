@@ -35,7 +35,7 @@ const TarjetasHome = () => {
                 id={`imagen${item.id}`}
                 src={item.imagen}
                 alt={`${item.titulo}Image`}
-                className="w-[290px] h-[330px] rounded-xl"
+                className="w-[290px] h-[330px] rounded-xl "
                 width={1000}
                 height={1000} 
               />

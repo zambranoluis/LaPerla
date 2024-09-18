@@ -9,7 +9,7 @@
   padding-left: 32px;
   padding-bottom: 16px;
   padding-top: 40px;
-
+  /* transition: all 0.5s ease-in-out; */
 
 
   /* flex flex-col absolute bottom-0   bg-gradient-to-t from-[#BCD873] bg[#edefe1] from-50% to-[#BCD873]/0 rounded-xl w-full pl-8 pb-4 pt-10 */
@@ -27,4 +27,11 @@
   padding-left: 32px;
   padding-bottom: 16px;
   padding-top: 40px;
+
+  
+  transition: all 0.2s ease-in-out;
+}
+
+.contenedorAbierto > {
+  transform: scale(1.1);
 }
