@@ -12,10 +12,10 @@ import {clickTarjeta} from "./TarjetasHome.js";
 const TarjetasHome = () => {
 
   const items = [
-    { id: 0, titulo: "Siembra", text: ["Drenaje","Selección del Clon","Cables vías","Densidad de siembra"], imagen: "/imagenTarjeta1.png", icono: "/icono1.png"},
-    { id: 1, titulo: "Cultivo", text: ["Fertilización","Protección de Racimo","Control de Densidad","Control de Malas Hierbas y Plagas"], imagen: "/imagenTarjeta2.png", icono: "/icono2.png"},
-    { id: 2, titulo: "Cosecha", text: ["Corte de Fruta","Transporte a empacadora","Programación de Cosecha"], imagen: "/imagenTarjeta3.png", icono: "/icono3.png"},
-    { id: 3, titulo: "Empaque", text: ["Recibo de Frutas","Selección de Fruta","Desmane","Lavado y Tratamiento de Corona"], imagen: "/imagenTarjeta4.png", icono: "/icono4.png"},
+    { id: 0, titulo: "Siembra", text: ["Drenaje","Selección del Clon","Cables vías","Densidad de siembra"], imagen: "/home/imagenTarjeta1.png", icono: "/home/icono1.png"},
+    { id: 1, titulo: "Cultivo", text: ["Fertilización","Protección de Racimo","Control de Densidad","Control de Malas Hierbas y Plagas"], imagen: "/home/imagenTarjeta2.png", icono: "/home/icono2.png"},
+    { id: 2, titulo: "Cosecha", text: ["Corte de Fruta","Transporte a empacadora","Programación de Cosecha"], imagen: "/home/imagenTarjeta3.png", icono: "/home/icono3.png"},
+    { id: 3, titulo: "Empaque", text: ["Recibo de Frutas","Selección de Fruta","Desmane","Lavado y Tratamiento de Corona"], imagen: "/home/imagenTarjeta4.png", icono: "/home/icono4.png"},
   ];
 
 

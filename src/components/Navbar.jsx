@@ -36,7 +36,6 @@ const Navbar = () => {
           <Image
             src="/LogoLaPerlaLong.png"
             alt="LaPerlaLogoNavbar"
-            objectFit='contain'
             width={180}
             height={40}
             className="cursor-pointer"
