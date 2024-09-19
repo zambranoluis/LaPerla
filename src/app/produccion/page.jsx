@@ -38,10 +38,10 @@ const Production = () => {
   return (
     <main>
       <section style={{backgroundImage: "url(/produccion/PRODUCCION1.png)"}} className="h-screen bg-cover bg-no-repeat text-[#193C34] flex flex-col justify-center items-center">
-        <div className="w-[30%] flex flex-col justify-center items-center gap-4">
-          <h2 className="text-3xl font-bold">QUE PRODUCE</h2>
-          <h1 className="text-6xl font-black">La Perla</h1>
-          <p className="text-center text-lg">Cultivamos productos del rubro bananero con los más altos estándares de calidad, dignos de exportación y reconocimiento nacional e internacional, garantizado protección a nuestro ambiente, sirviendo de ejemplo y aporte importante al desarrollo de nuestro.</p>
+        <div className="w-[30%] flex flex-col justify-center items-center gap-2">
+          <h2 className="text-3xl font-bold font-['nohemi']">QUE PRODUCE</h2>
+          <h1 className="text-8xl font-black font-['alverata']">La Perla</h1>
+          <p className="text-center text-lg font-['nohemi']">Cultivamos productos del rubro bananero con los más altos estándares de calidad, dignos de exportación y reconocimiento nacional e internacional, garantizado protección a nuestro ambiente, sirviendo de ejemplo y aporte importante al desarrollo de nuestro.</p>
         </div>
       </section>
 

@@ -33,13 +33,7 @@ const Navbar = () => {
       </div>
       <div id="logo" className="flex justify-center items-center w-[50%]  md:w-[30%] ">
         <a href="/">
-          <Image
-            src="/LogoLaPerlaLong.png"
-            alt="LaPerlaLogoNavbar"
-            width={180}
-            height={40}
-            className="cursor-pointer"
-          />
+          <img src="/LogoLaPerlaLong.png" className="w-[180px] hover:cursor-pointer" alt="Logo La Perla NavBar" />
         </a>
       </div>
       <div id="sites" className=" hidden md:flex md:w-[50%] ">
