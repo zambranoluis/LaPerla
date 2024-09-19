@@ -52,7 +52,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div id="contact" className="flex w-[25%] md:w-[20%] lg:justify-start  justify-center items-center  ">
-        <button className="text-[#193C34]  font-bold text-sm md:text-lg bg-[#F2CA33] rounded-full px-2 md:px-4 py-1 md:py-1">Contacto</button>
+        <button className="text-[#193C34]  font-bold text-sm md:text-lg bg-[#F2CA33] rounded-full px-2 md:px-4 py-1 md:py-1">
+          <a href="/contacto">Contacto</a>
+        </button>
       </div>
     </nav>
   );
