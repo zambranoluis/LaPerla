@@ -30,14 +30,14 @@ const History = () => {
 
   return (
     <main>
-      <section style={{backgroundImage: "url(/historia/HISTORIA1-O.png)"}} className="z-[2] relative w-full h-[50vh] md:h-screen bg-cover bg-center bg-no-repeat text-[#193C34] flex flex-col   pl-8  sm:pl-12 sm:pt-0 justify-center sm:items-start">
+      <section style={{backgroundImage: "url(/historia/HISTORIA1-O.png)"}} className="z-[2] relative w-full h-[50vh] md:h-screen bg-cover bg-center bg-no-repeat text-[#193C34] flex flex-col pl-8 sm:pl-12 sm:pt-0 justify-center sm:items-start">
         <h2 className="text-3xl md:text-5xl font-bold font-[nohemi]">SOMOS</h2>
         <h1 className="text-5xl md:text-7xl font-black font-[alverata]">La Perla</h1>
         <p className=" text-justify text-sm md:text-lg  w-[50%]  lg:w-[35%] font-[nohemi]">Somos una empresa productora de bananos en el Occidente del país, inspirada por la confianza de clientes internacionales, el impulso del desarrollo sostenible y la generación de empleos directos e indirectos, mediante un sistema de comercio justo.</p>
       </section>
 
-      <section className="bg-[#edefe1] flex flex-col relative gap-20 lg:gap-0 py-20 lg:py-0">
-        {/* <img
+      <section className="bg-[#edefe1] flex flex-col relative gap-20 md:gap-14 py-20 md:py-0">
+        <img
           src="/historia/HOJA2.svg"
           alt="HojaDePlantaDecorativa_Arriba"
           className="absolute w-[400px] h-[400px] top-[-150px] z-[1] left-[35%] rotate-[180deg] scale-x-[-1] "
@@ -65,51 +65,51 @@ const History = () => {
           src="/historia/banana.png"
           alt="banana"
           className="absolute w-[290px]   bottom-[0px] z-[1] left-[43%]  "
-        /> */}
+        />
 
 
 
-        <div className="flex flex-col lg:flex-row w-full gap-4 lg:gap-32">
-          <div className="flex lg:w-[45%]">
+        <div className="flex flex-col md:flex-row w-full gap-4 md:gap-8 lg:gap-20">
+          <div className="flex md:w-[50%]">
             <img
               src="/historia/HISTORIA2-O.png"
               alt="ImagenSiembra"
-              className="object-cover w-full aspect-square rounded-l-[100px] p-2 rounded-r-[100px] lg:rounded-l-[0px] lg:p-0"
+              className="object-cover w-full aspect-square rounded-l-[100px] p-2 rounded-r-[100px] md:rounded-l-[0px] md:p-0"
             />
           </div>
-          <div className="w-[80%] lg:w-[30%] flex flex-col place-self-center text-[#193C34] gap-2">
-            <p className="text-center font-bold text-4xl lg:text-left font-[alverata]">Cultivar, cosechar y procesar productos del rubro bananero con los más altos estándares de calidad</p>
-            <p className="text-center text-xl lg:text-justify font-[nohemi]">Dignos de exportación y reconocimiento nacional e internacional, garantizando protección a nuestro ambiente, sirviendo de ejemplo y aporte importante al desarrollo de nuestro.</p>
+          <div className="w-[80%] md:w-[40%] flex flex-col place-self-center text-[#193C34] gap-2">
+            <p className="text-center font-bold text-4xl md:text-2xl md:text-left font-[alverata]">Cultivar, cosechar y procesar productos del rubro bananero con los más altos estándares de calidad</p>
+            <p className="text-center text-xl md:text-lg md:text-justify font-[nohemi]">Dignos de exportación y reconocimiento nacional e internacional, garantizando protección a nuestro ambiente, sirviendo de ejemplo y aporte importante al desarrollo de nuestro.</p>
           </div>
         </div>
 
 
-        <div className="flex flex-col lg:flex-row-reverse w-full gap-4 lg:gap-32">
-          <div className="flex lg:w-[45%]">
+        <div className="flex flex-col md:flex-row-reverse w-full gap-4 md:gap-8 lg:gap-20">
+          <div className="flex md:w-[50%]">
             <img
               src="/historia/HISTORIA3-O.png"
               alt="ImagenHojasDeLaPlanta"
-              className="object-cover w-full aspect-square rounded-l-[100px] p-2 rounded-r-[100px] lg:rounded-r-[0px] lg:p-0"
+              className="object-cover w-full aspect-square rounded-l-[100px] p-2 rounded-r-[100px] md:rounded-r-[0px] md:p-0"
             />
           </div>
-          <div className="w-[80%] lg:w-[30%] flex flex-col place-self-center text-[#193C34] justify-center items-center lg:justify-start lg:items-start ">
-            <h2 className="tet-center lg:text-left text-3xl md:text-4xl font-bold font-[nohemi]">NUESTRA</h2>
+          <div className="w-[80%] md:w-[40%] flex flex-col place-self-center text-[#193C34] justify-center items-center md:justify-start md:items-start ">
+            <h2 className="tet-center md:text-left text-3xl md:text-4xl font-bold font-[nohemi]">NUESTRA</h2>
             <h1 className="text-5xl md:text-7xl font-black font-[alverata]">Visión</h1>
-            <p className="text-center lg:text-justify text-sm md:text-lg font-[nohemi]">Ser una corporación Bananera de reconocimiento nacional e internacional, por la excelente en la calidad de sus productos, el control y seguridad de sus operaciones.</p>
+            <p className="text-center text-xl md:text-lg md:text-justify lg:w-[80%] font-[nohemi]">Ser una corporación Bananera de reconocimiento nacional e internacional, por la excelente en la calidad de sus productos, el control y seguridad de sus operaciones.</p>
           </div>
         </div>
 
       </section>
 
-      <section style={{backgroundImage: "url(/historia/HISTORIA5-O.png)"}} className="relative z-[2] min-h-[50vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-[#193C34] gap-16 py-20 lg:py-0">
+      <section style={{backgroundImage: "url(/historia/HISTORIA5-O.png)"}} className="relative z-[2] min-h-[70vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-[#193C34] gap-16 py-20 ">
         <div className=" flex flex-col justify-center items-center">
           <h2 className="text-3xl font-bold font-[nohemi]">NUESTROS</h2>
           <h1 className="text-6xl font-black font-[alverata]">Valores</h1>
         </div>
-        <div className="flex flex-col lg:flex-row  gap-10 ">
+        <div className="flex  flex-col lg:flex-row  gap-10 ">
           {
             valores.map((valor, index) => (
-              <div key={`valor${index}`} className="flex w-[90%] lg:w-[30%] flex-col  items-center gap-2 bg-[#edefe1] p-8 rounded-3xl hover:scale-105">
+              <div key={`valor${index}`} className="flex w-[250px] h-[200px]  flex-col  items-center gap-2 bg-[#edefe1] p-8 rounded-3xl hover:scale-105">
                 <img 
                 src={valor.icono} 
                 alt={`${valor.icono}`} 
