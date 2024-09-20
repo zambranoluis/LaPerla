@@ -36,35 +36,38 @@ const History = () => {
         <p className=" text-justify text-sm md:text-lg  w-[50%]  lg:w-[35%] font-[nohemi]">Somos una empresa productora de bananos en el Occidente del país, inspirada por la confianza de clientes internacionales, el impulso del desarrollo sostenible y la generación de empleos directos e indirectos, mediante un sistema de comercio justo.</p>
       </section>
 
-      <section className="bg-[#edefe1] flex flex-col relative gap-20 md:gap-14 py-20 md:py-0">
+      <section className="bg-[#edefe1] flex flex-col relative gap-20 md:gap-14 pt-20 pb-52 md:py-0">
+
         <img
           src="/historia/HOJA2.svg"
-          alt="HojaDePlantaDecorativa_Arriba"
-          className="absolute w-[400px] h-[400px] top-[-150px] z-[1] left-[35%] rotate-[180deg] scale-x-[-1] "
-        />
-        <img
-          src="/historia/HOJA2.svg"
-          alt="HojaDePlantaDecorativa_Abajo"
-          className=" absolute w-[400px] h-[400px] bottom-[-150px] z-[1] left-[43%]  "
+          alt="Hoja de planta decorativa arriba"
+          className="absolute z-[1] w-[100px] md:w-[100px] lg:w-[200px] top-[-50px] lg:top-[-160px] left-[80%] md:left-[40%] lg:left-[45%] rotate-[180deg] scale-x-[-1] "
         />
 
+        <img
+          src="/historia/HOJA4.svg"
+          alt="Hoja de planta decorativa derecha"
+          className="absolute  w-[50px] lg:w-[100px]  top-[35%] sm:top-[40%] md:top-[42%] lg:top-[5%] right-[0px] rotate-[-20deg]"
+        />
 
         <img
           src="/historia/HOJA4-2.svg"
-          alt="HojaDePlantaDecorativa_Izquierda"
-          className="absolute w-[100px] h-[100px] top-[70%] rotate-[155deg]"
+          alt="Hoja de planta decorativa izquierda"
+          className="absolute w-[50px] lg:w-[80px] top-[72%] sm:top-[80%] md:top-[85%] lg:top-[81%] rotate-[155deg]"
         />
         
+
+
         <img
-          src="/historia/HOJA4.svg"
-          alt="HojaDePlantaDecorativa_Derecha"
-          className="absolute w-[100px] h-[100px] top-[10%] right-0 rotate-[-20deg]"
+          src="/historia/HOJA2.svg"
+          alt="Hoja de planta decorativa abajo"
+          className=" absolute z-[0]  w-[140px] md:w-[100px] lg:w-[200px] bottom-[-100px] md:bottom-[-50px] lg:bottom-[-150px] left-[60%] md:left-[50%] lg:left-[40%] "
         />
 
         <img
           src="/historia/banana.png"
           alt="banana"
-          className="absolute w-[290px]   bottom-[0px] z-[1] left-[43%]  "
+          className="absolute z-[1] w-[150px] lg:w-[200px] bottom-[-20px] left-[60%] md:left-[45%] lg:left-[40%] "
         />
 
 
@@ -77,8 +80,8 @@ const History = () => {
               className="object-cover w-full aspect-square rounded-l-[100px] p-2 rounded-r-[100px] md:rounded-l-[0px] md:p-0"
             />
           </div>
-          <div className="w-[80%] md:w-[40%] flex flex-col place-self-center text-[#193C34] gap-2">
-            <p className="text-center font-bold text-4xl md:text-2xl md:text-left font-[alverata]">Cultivar, cosechar y procesar productos del rubro bananero con los más altos estándares de calidad</p>
+          <div className="w-[80%] md:w-[40%] lg:w-[35%] flex flex-col place-self-center text-[#193C34] gap-2 ">
+            <p className="text-center font-bold text-4xl md:text-2xl md:text-left font-[alverata] ">Cultivar, cosechar y procesar productos del rubro bananero con los más altos estándares de calidad</p>
             <p className="text-center text-xl md:text-lg md:text-justify font-[nohemi]">Dignos de exportación y reconocimiento nacional e internacional, garantizando protección a nuestro ambiente, sirviendo de ejemplo y aporte importante al desarrollo de nuestro.</p>
           </div>
         </div>
@@ -109,7 +112,7 @@ const History = () => {
         <div className="flex  flex-col lg:flex-row  gap-10 ">
           {
             valores.map((valor, index) => (
-              <div key={`valor${index}`} className="flex w-[250px] h-[200px]  flex-col  items-center gap-2 bg-[#edefe1] p-8 rounded-3xl hover:scale-105">
+              <div key={`valor${index}`} className="flex w-[220px] h-[200px]  flex-col  items-center gap-2 bg-[#edefe1] p-8 rounded-3xl hover:scale-105">
                 <img 
                 src={valor.icono} 
                 alt={`${valor.icono}`} 
