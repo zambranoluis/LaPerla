@@ -21,7 +21,7 @@ const TarjetasHome = () => {
 
   return (
     <>
-      <div className="gap-14 py-20 p-12 grid md:grid-cols-2 xl:grid-cols-4 place-content-center place-items-center">
+      <div className="gap-14 py-20 p-12 grid md:grid-cols-2 xl:grid-cols-4 place-content-center place-items-center font-['nohemi']">
         {items.map((item) => (
           <div key={`tarjeta${item.id}`}  id={`tarjeta${item.id}`} 
           className="flex flex-col justify-center items-start border-2 border-[#7EA451]  rounded-xl hover:cursor-pointer select-none"
