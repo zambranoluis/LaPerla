@@ -16,7 +16,7 @@ const Sostenibilidad = () => {
       <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD1.png)"}} className="min-h-screen bg-cover bg-no-repeat text-[#193C34] flex flex-col justify-center items-center gap-4">
         <div className='flex flex-col gap-4 w-[90%] sm:w-[60%] lg:w-[50%] justify-center items-center'>
           <h1 className="text-5xl font-black font-['alverata']">Sostenibilidad</h1>
-          <p className="text-lg  text-center">En Inversiones Agropecuaria La Perla S.A., estamos comprometidos a garantizar la inocuidad alimentaria, la cual se aplique y mantenga en todos nuestros procesos de producción.</p>
+          <p className="text-lg  text-center xl:w-[80%]">En Inversiones Agropecuaria La Perla S.A., estamos comprometidos a garantizar la inocuidad alimentaria, la cual se aplique y mantenga en todos nuestros procesos de producción.</p>
         </div>
       </section>
 

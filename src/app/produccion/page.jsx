@@ -53,7 +53,7 @@ const Production = () => {
                 <div className="flex justify-center items-center md:w-[50%]">
                   <img src={produccion.imagen} className="h-[470px]" alt={`Imagen de ${produccion.nombre}`} />
                 </div>
-                <div className={(index%2 === 0) ? "flex flex-col gap-4 justify-center items-center md:w-[50%] md:justify-start md:items-start lg:w-[40%]   pr-[100px]" : "flex flex-col gap-4 justify-center items-center md:w-[50%] md:justify-start md:items-start lg:w-[40%]  xl:pl-[100px] "}>
+                <div className={(index%2 === 0) ? "flex flex-col gap-4 justify-center items-center md:w-[50%] md:justify-start md:items-start lg:w-[40%]   pr-[150px]" : "flex flex-col gap-4 justify-center items-center md:w-[50%] md:justify-start md:items-start lg:w-[40%]  xl:pl-[150px] "}>
                   <div className="flex md:flex-col gap-2  ">
                     <img src={produccion.icono} className="w-[60px] h-[60px]" alt={`Icono de ${produccion.nombre}`} />
                     <h1 className="text-4xl font-black font-['alverata']">{produccion.nombre}</h1>
