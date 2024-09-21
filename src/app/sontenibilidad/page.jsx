@@ -13,7 +13,7 @@ const Sostenibilidad = () => {
 
   return (
     <main>
-      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD1.png)"}} className="min-h-screen bg-cover bg-no-repeat text-[#193C34] flex flex-col justify-center items-center gap-4">
+      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD1-O.png)"}} className="min-h-screen bg-cover bg-no-repeat text-[#193C34] flex flex-col justify-center items-center gap-4">
         <div className='flex flex-col gap-4 w-[90%] sm:w-[60%] lg:w-[50%] justify-center items-center'>
           <h1 className="text-5xl font-black font-['alverata']">Sostenibilidad</h1>
           <p className="text-lg  text-center xl:w-[80%]">En Inversiones Agropecuaria La Perla S.A., estamos comprometidos a garantizar la inocuidad alimentaria, la cual se aplique y mantenga en todos nuestros procesos de producción.</p>
@@ -21,7 +21,7 @@ const Sostenibilidad = () => {
       </section>
 
       <section  className="flex relative bg-[#EDEFE1] min-h-screen max-h-screen">
-        <img src="/sostenibilidad/SOSTENIBILIDAD(2).png" alt="Planta con racimo de Banano" className="w-[50%] object-cover rounded-r-[100px] "/>
+        <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="w-[50%] object-cover rounded-r-[100px] "/>
         <div className="flex gap-8 place-self-end  w-full justify-end pr-[100px] pb-[50px] z-[2]">
           <img src="/sostenibilidad/FLECHA.png" className="h-[50px] rotate-180 hover:cursor-pointer" alt="Icono Flecha Desplazamiento Izquierda" onClick={(e) => {e.preventDefault(); desplazar('izquierda')}} />
           <img src="/sostenibilidad/FLECHA.png" className="h-[50px] hover:cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => {e.preventDefault(); desplazar('derecha')}} />
@@ -40,7 +40,7 @@ const Sostenibilidad = () => {
         </div>
       </section>
 
-      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD3.png)"}} className='min-h-screen bg-cover bg-no-repeat relative text-[#193C34]'>
+      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD3-O.png)"}} className='min-h-screen bg-cover bg-no-repeat relative text-[#193C34]'>
         <div className='flex flex-col gap-8 pl-32 pt-20'>
           <div className='flex flex-col gap-2'>
             <h2 className="text-3xl font-bold font-['nohemi']">SOSTENIBILIDAD</h2>
@@ -63,9 +63,6 @@ const Sostenibilidad = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex absolute right-0">
-          <img src="/sostenibilidad/PALMAS.png" className='w-[600px] ' alt="Palmas en Sostenibilidad" />
-        </div> */}
       </section>
 
       <section className="min-h-[60vh] lg:min-h-[50vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
@@ -73,7 +70,7 @@ const Sostenibilidad = () => {
           <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
         </div>
-        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[500px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
+        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[450px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
       </section>
     </main>
   );
