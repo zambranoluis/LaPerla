@@ -93,4 +93,4 @@ const Inicio = () => {
   );
 };
 
-export default Home;
+export default Inicio;
