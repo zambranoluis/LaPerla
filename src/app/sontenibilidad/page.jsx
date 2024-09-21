@@ -68,7 +68,7 @@ const Sostenibilidad = () => {
         </div> */}
       </section>
 
-      <section className="min-h-[60vh] lg:min-h-[30vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
+      <section className="min-h-[60vh] lg:min-h-[50vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
         <div className='flex flex-col gap-2 justify-center items-center w-[90%]'>
           <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
