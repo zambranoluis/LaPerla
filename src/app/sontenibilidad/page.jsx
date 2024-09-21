@@ -88,6 +88,7 @@ const Sostenibilidad = () => {
         <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[450px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
       </section>
     </main>
+    
   );
 };
 
