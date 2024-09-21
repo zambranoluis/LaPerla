@@ -78,13 +78,38 @@ const sostenibilidad2 = [
 ]
 
 
-function desplazar(direccion) {
-  console.log(`desplazar ${direccion}`)
+// function desplazar(direccion) {
+//   console.log(`desplazar ${direccion}`)
 
-}
+// }
+
+const desplazamientoHorizontal = (direccion) => {
+  console.log("desplazar", direccion);
+  const contenedor = document.getElementById('contenedor-desplazable1');
+  const tarjetaWidth = contenedor.querySelector('div').offsetWidth + 16; // Ancho de la tarjeta + margen
+
+  if (direccion === 'derecha') {
+    contenedor.scrollBy({ left: tarjetaWidth, behavior: 'smooth' });
+  } else if (direccion === 'izquierda') {
+    contenedor.scrollBy({ left: -tarjetaWidth, behavior: 'smooth' });
+  }
+};
+
+const desplazamientoVertical = (direccion) => {
+  const contenedor = document.getElementById('contenedor-desplazable2');
+  const tarjetaHeight = 2*(contenedor.querySelector('div').offsetHeight) + 16; // Altura de la tarjeta + margen
+
+  if (direccion === 'abajo') {
+    contenedor.scrollBy({ top: tarjetaHeight, behavior: 'smooth' });
+  } else if (direccion === 'arriba') {
+    contenedor.scrollBy({ top: -tarjetaHeight, behavior: 'smooth' });
+  }
+};
+
 
 export {
   sostenibilidad1,
   sostenibilidad2,
-  desplazar
+  desplazamientoHorizontal,
+  desplazamientoVertical
 }
