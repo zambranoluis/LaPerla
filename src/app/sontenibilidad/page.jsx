@@ -14,8 +14,10 @@ const Sostenibilidad = () => {
   return (
     <main>
       <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD1.png)"}} className="min-h-screen bg-cover bg-no-repeat text-[#193C34] flex flex-col justify-center items-center gap-4">
-        <h1 className="text-5xl font-black font-['alverata']">Sostenibilidad</h1>
-        <p className="text-lg w-[500px] text-center">En Inversiones Agropecuaria La Perla S.A., estamos comprometidos a garantizar la inocuidad alimentaria, la cual se aplique y mantenga en todos nuestros procesos de producción.</p>
+        <div className='flex flex-col gap-4 w-[90%] sm:w-[60%] lg:w-[50%] justify-center items-center'>
+          <h1 className="text-5xl font-black font-['alverata']">Sostenibilidad</h1>
+          <p className="text-lg  text-center">En Inversiones Agropecuaria La Perla S.A., estamos comprometidos a garantizar la inocuidad alimentaria, la cual se aplique y mantenga en todos nuestros procesos de producción.</p>
+        </div>
       </section>
 
       <section  className="flex relative bg-[#EDEFE1] min-h-screen max-h-screen">
@@ -66,10 +68,12 @@ const Sostenibilidad = () => {
         </div> */}
       </section>
 
-      <section className="min-h-[60vh]  bg-[#EDEFE1] flex flex-col justify-center items-center gap-4 text-[#193C34] relative ">
-        <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
-        <p className='text-center w-[40%] z-[1]'>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
-          <img src="/sostenibilidad/PALMAS.png" className='absolute w-[600px] z-[0] top-[0%] right-0 opacity-10' alt="Palmas en Sostenibilidad" />
+      <section className="min-h-[60vh] lg:min-h-[30vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
+        <div className='flex flex-col gap-2 justify-center items-center w-[90%]'>
+          <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
+          <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
+        </div>
+        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px] sm:w-[400px] lg:w-[500px] max-md:top-[0%] lg:right-0 md:bottom-0 lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
       </section>
     </main>
   );

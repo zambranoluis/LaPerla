@@ -2,9 +2,9 @@ const ContactUs = () => {
   return (
     <main>
       <section style={{backgroundImage: "url(/contacto/CONTACTO1.png)"}} className="flex min-h-screen bg-cover bg-no-repeat text-[#193C34] justify-center items-center py-[200px]">
-        <div className="flex gap-40">
+        <div className="flex flex-col lg:flex-row gap-20 lg:gap-40 justify-center items-center w-[90%]">
           <div className="flex flex-col gap-12">
-            <div>
+            <div className="">
               <h2 className="font-bold text-2xl">¿PREGUNTAS?</h2>
               <h1 className="font-black text-5xl">CONSULTAS<br/>GENERALES</h1>
             </div>
@@ -23,9 +23,9 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#EDEFE1] p-10 rounded-3xl">
+          <div className="bg-[#EDEFE1] p-10 rounded-3xl ">
             <form action="#EnviarConsulta" className="flex flex-col gap-2">
-              <div className="flex gap-2">
+              <div className="flex flex-col md:flex-row gap-2">
                 <div className="flex flex-col">
                   <label htmlFor="nombre">Nombre</label>
                   <input type="text"   className="rounded-md border border-[#BCD873] bg-[#EDEFE1]"/>
@@ -50,10 +50,12 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+
+
       <section className="py-[100px] bg-[#EDEFE1] rounded-t-[100px] mt-[-95px] flex flex-col justify-center items-center text-[#193C34]">
-        <div className="flex justify-center items-center gap-10">
-          <div className="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81672.1956355825!2d-71.04779848155599!3d9.411095896491565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e62fd971794637f%3A0x318eb2c26297e12e!2sHacienda%20La%20Perla!5e0!3m2!1ses!2sve!4v1726700369823!5m2!1ses!2sve" width="550" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="rounded-3xl"></iframe>
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
+          <div className=" ">
+            <iframe className="rounded-3xl w-full sm:w-[500px] h-[350px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81672.1956355825!2d-71.04779848155599!3d9.411095896491565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e62fd971794637f%3A0x318eb2c26297e12e!2sHacienda%20La%20Perla!5e0!3m2!1ses!2sve!4v1726700369823!5m2!1ses!2sve"     ></iframe>
           </div>
           <div className="flex flex-col items-center justify-center  gap-6">
             <div>
