@@ -4,12 +4,12 @@ import TarjetasHome from '../components/TarjetasHome.jsx';
 
 
 
-const Home = () => {
+const Inicio = () => {
   return (
     <main>
       <section   className="flex relative w-full ">
         <img
-            src="/home/plantaVideo1.png"
+            src="/Inicio/plantaVideo1.png"
             alt="Hojas de Plantas Izquierda" 
             className=" absolute object-contain bottom-[-7%] sm:bottom-[-15%] md:bottom-[-10%] right-0 sm:h-[350px] sm:w-[250px] md:h-[420px] md:w-[300px] lg:h-[500px] lg:w-[350px]"
           />

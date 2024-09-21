@@ -1,4 +1,4 @@
-const ContactUs = () => {
+const Contacto = () => {
   return (
     <main>
       <section style={{backgroundImage: "url(/contacto/CONTACTO1.png)"}} className="flex min-h-screen bg-cover bg-no-repeat text-[#193C34] justify-center items-center py-[200px]">
@@ -75,4 +75,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contacto;

@@ -1,4 +1,4 @@
-const Production = () => {
+const Produccion = () => {
 
   const produccion = [
     {
@@ -78,4 +78,4 @@ const Production = () => {
   );
 };
 
-export default Production;
+export default Produccion;

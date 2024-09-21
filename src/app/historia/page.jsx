@@ -2,7 +2,7 @@
 
 
 
-const History = () => {
+const Historia = () => {
 
   const valores = [
     {
@@ -36,7 +36,7 @@ const History = () => {
         <p className=" text-justify text-sm md:text-lg  w-[50%]  lg:w-[35%] font-[nohemi]">Somos una empresa productora de bananos en el Occidente del país, inspirada por la confianza de clientes internacionales, el impulso del desarrollo sostenible y la generación de empleos directos e indirectos, mediante un sistema de comercio justo.</p>
       </section>
 
-      <section className="bg-[#edefe1] flex flex-col relative gap-20 md:gap-14 pt-20 pb-52 md:py-0">
+      <section className="bg-[#edefe1] flex flex-col relative gap-20 md:gap-14 pt-20 pb-52 md:py-0 overflow-hidden">
 
         <img
           src="/historia/HOJA2.svg"
@@ -109,7 +109,7 @@ const History = () => {
           <h2 className="text-3xl font-bold font-[nohemi]">NUESTROS</h2>
           <h1 className="text-6xl font-black font-[alverata]">Valores</h1>
         </div>
-        <div className="flex  flex-col lg:flex-row  gap-10 ">
+        <div className="flex  flex-wrap justify-center items-center md:w-[80%] lg:w-full  gap-10 ">
           {
             valores.map((valor, index) => (
               <div key={`valor${index}`} className="flex w-[220px] h-[200px]  flex-col  items-center gap-2 bg-[#edefe1] p-8 rounded-3xl hover:scale-105">
@@ -149,4 +149,4 @@ const History = () => {
   );
 };
 
-export default History;
+export default Historia;

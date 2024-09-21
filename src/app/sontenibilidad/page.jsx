@@ -20,20 +20,21 @@ const Sostenibilidad = () => {
         </div>
       </section>
 
-      <section  className="flex relative bg-[#EDEFE1] min-h-screen max-h-screen">
-        <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="w-[50%] object-cover rounded-r-[100px] "/>
+      <section  className="flex relative bg[#EDEFE1] bg-[#1b1c13] min-h-screen ">
+        {/* <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="w-[50%] object-cover rounded-r-[100px] "/>
         <div className="flex gap-8 place-self-end  w-full justify-end pr-[100px] pb-[50px] z-[2]">
           <img src="/sostenibilidad/FLECHA.png" className="h-[50px] rotate-180 hover:cursor-pointer" alt="Icono Flecha Desplazamiento Izquierda" onClick={(e) => {e.preventDefault(); desplazar('izquierda')}} />
           <img src="/sostenibilidad/FLECHA.png" className="h-[50px] hover:cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => {e.preventDefault(); desplazar('derecha')}} />
-        </div>
+        </div> */}
         
-        <div id="contenedor-desplazable"  className=" flex absolute top-[20%] left-[30%] gap-8 ">
+        
+        <div id="contenedor-desplazable"  className="grid grid-cols-4 absolute top-[20%] left-[30%] gap-8 bg-red-700 ">
           {
             sostenibilidad1.map((sostenibilidad) => (
               <div className=" flex flex-col w-[600px] h-[500px] justify-start items-start gap-4 bg-[#BCD873] text-[#193C34] p-8 rounded-3xl" key={sostenibilidad.id}>
                 <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]"/>
-                <h2 className="text-3xl font-bold">{sostenibilidad.titulo}</h2>
-                <ReactMarkdown className="text-lg">{sostenibilidad.texto}</ReactMarkdown>
+                <h2 className="text-3xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
+                <ReactMarkdown className="text-lg font-['nohemi']">{sostenibilidad.texto}</ReactMarkdown>
               </div>
             ))
           }
