@@ -73,7 +73,7 @@ const Sostenibilidad = () => {
           <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
         </div>
-        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px] sm:w-[400px] lg:w-[500px] max-md:top-[0%] lg:right-0 md:bottom-0 lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
+        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[500px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
       </section>
     </main>
   );
