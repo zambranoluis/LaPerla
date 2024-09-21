@@ -9,14 +9,14 @@ const Inicio = () => {
     <main>
       <section   className="flex relative w-full ">
         <img
-            src="/Inicio/plantaVideo1.png"
-            alt="Hojas de Plantas Izquierda" 
+            src="/home/plantaVideo1.png"
+            alt="Hojas de Plantas Derecha" 
             className=" absolute object-contain bottom-[-7%] sm:bottom-[-15%] md:bottom-[-10%] right-0 sm:h-[350px] sm:w-[250px] md:h-[420px] md:w-[300px] lg:h-[500px] lg:w-[350px]"
           />
         
         <img
             src="/home/plantaVideo2.png"
-            alt="Hojas de Plantas Derecha" 
+            alt="Hojas de Plantas Izquierda" 
             className=" absolute object-contain bottom-[-5%] sm:bottom-[-20%] md:bottom-[-10%] sm:h-[350px] sm:w-[250px] md:h-[350px] md:w-[300px] lg:h-[500px] lg:w-[400px]"
           />
         <div className="z-0 absolute w-full h-full bg-white/30  flex flex-col justify-start  items-center gap-4">
