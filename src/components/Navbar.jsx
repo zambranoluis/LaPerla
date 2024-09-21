@@ -40,13 +40,13 @@ const Navbar = () => {
         <ul className="flex w-full   justify-center items-center md:gap-4 lg:gap-8">
           {links.map((link) => (
             <li id={link.id} key={link.id} className="flex justify-center items-center">
-              <a href={link.path} className="text-sm md:text-md lg:text-lg text-[#EDEFE1] font-bold ">{link.label}</a>
+              <a href={link.path} className="text-sm md:text-md lg:text-lg text-[#EDEFE1] font-bold font-[nohemi]">{link.label}</a>
             </li>
           ))}
         </ul>
       </div>
       <div id="contact" className="flex w-[25%] md:w-[20%] lg:justify-start  justify-center items-center  ">
-        <button className="text-[#193C34]  font-bold text-sm md:text-lg bg-[#F2CA33] rounded-full px-2 md:px-4 py-1 md:py-1">
+        <button className="text-[#193C34]  font-bold text-sm md:text-lg bg-[#F2CA33] rounded-full px-2 md:px-4 py-1 md:py-1 font-[nohemi]">
           <a href="/contacto">Contacto</a>
         </button>
       </div>

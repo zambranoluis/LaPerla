@@ -13,11 +13,11 @@ const Footer = () => {
           </a>
         </div>
         <div className=" flex items-center ">
-          <p className="text-[#EDEFE1] ">© 2024 La Perla. All Rights Reserved.</p>
+          <p className="text-[#EDEFE1] font-[nohemi]">© 2024 La Perla. All Rights Reserved.</p>
         </div>
       </div>
       <div className="grid place-content-center">
-        <h1 className="text-2xl  font-bold text-white text-center">Sembramos oportunidades, cultivamos sueños.</h1>
+        <h1 className="text-3xl  font-bold text-white text-center font-[alverata]">Sembramos oportunidades, cultivamos sueños.</h1>
       </div>
     </footer>
   );
