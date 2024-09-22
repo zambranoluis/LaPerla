@@ -23,61 +23,42 @@ const Sostenibilidad = () => {
         </div>
       </section>
 
-      {/* style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD2-O.png)"}} */}
 
-      <section   className="bg-center bg-no-repeat bg-cover relative h-[750px] md:h-[650px] lg:h-[900px]" >
-        
+
+
+
+
+      
+
+      <section className="bg-center bg-no-repeat bg-cover relative h-[750px] md:h-[650px] lg:h-[900px]" >
+
         <div className='flex  w-full'>
-          <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="absolute object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]"/>
+          <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="absolute object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
         </div>
-        
-        <div id="contenedor-desplazable1"  className="flex justify-start items-center w-full gap-4 p-1 sm:p-4 md:p-8 min-[900px]:pl-[200px] lg:pl-[400px] xl:pl-[450px]   overflow-x-auto scrollbar-hide ">
+
+        <div id="contenedor-desplazable1" className="flex justify-start items-center w-full gap-4 p-1 sm:p-4 md:p-8 min-[900px]:pl-[200px] lg:pl-[400px] xl:pl-[450px]   overflow-x-auto scrollbar-hide ">
           {
             sostenibilidad1.map((sostenibilidad) => (
-                <div key={sostenibilidad.id} className='lg:pt-[15%] opacity5'>
-                  <div className=" flex flex-col  w-[380px] sm:w-[450px] md:w-[550px] h-[650px] md:h-[500px] lg:h-[600px]  bg-[#BCD873] text-[#193C34] p-8 rounded-3xl gap-2" >
-                    <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]"/ >
-                    <h2 className="text-3xl lg:text-5xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
-                    <ReactMarkdown className="text-lg font-['nohemi']">{sostenibilidad.texto}</ReactMarkdown>
-                  </div>
-                </div>
-            ))
-          }
-        </div>
-
-        <div className=" flex gap-4 md:justify-end justify-center items-center p-2 md:pr-10">
-          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] rotate-180  cursor-pointer" onClick={(e) => {e.preventDefault(); desplazamientoHorizontal('izquierda')}} />
-          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => {e.preventDefault(); desplazamientoHorizontal('derecha')}} />
-        </div>
-
-      </section>
-
-
-      {/* <section id="IDBU"  className="flex relative bg-[#EDEFE1]  min-h-screen ">
-        <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="w-full md:w-[70%] object-cover md:rounded-r-[100px] "/>
-        
-        <div className="flex absolute bottom-0 min-[400px]:bottom-[5%] sm:bottom-[1%] md:bottom-[200px]  right-[30%] sm:right-[35%] md:right-[30px] lg:right-[50px]  gap-4 z-[2]">
-          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] aspect-square rotate-180 hover:cursor-pointer" alt="Icono Flecha Desplazamiento Izquierda" onClick={(e) => {e.preventDefault(); desplazamientoHorizontal('izquierda')}} />
-          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] aspect-square hover:cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => {e.preventDefault(); desplazamientoHorizontal('derecha')}} />
-        </div>
-        
-        
-        <div id="contenedor-desplazable1"  className="flex absolute top-[10%] lg:top-[20%] md:top-[20%] left-[1%] md:left-[10%]   lg:left-[30%] gap-4 lg:gap-8 w-full md:w-[90%] lg:w-[70%] overflow-x-auto scrollbar-hide">
-          {
-            sostenibilidad1.map((sostenibilidad) => (
-              <div key={sostenibilidad.id}>
-                <div className=" flex flex-col w-[350px] h-[700px] md:w-[600px] md:h-[450px] justify-start items-start gap-4 bg-[#BCD873] text-[#193C34] p-8 rounded-3xl" >
-                  <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]"/>
-                  <h2 className="text-3xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
+              <div key={sostenibilidad.id} className='lg:pt-[15%] opacity5'>
+                <div className=" flex flex-col  w-[380px] sm:w-[450px] md:w-[550px] h-[650px] md:h-[500px] lg:h-[600px]  bg-[#BCD873] text-[#193C34] p-8 rounded-3xl gap-2" >
+                  <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]" />
+                  <h2 className="text-3xl lg:text-5xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
                   <ReactMarkdown className="text-lg font-['nohemi']">{sostenibilidad.texto}</ReactMarkdown>
                 </div>
               </div>
             ))
           }
         </div>
-      </section> */}
+
+        <div className=" flex gap-4 md:justify-end justify-center items-center p-2 md:pr-10">
+          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] rotate-180  cursor-pointer" onClick={(e) => { e.preventDefault(); desplazamientoHorizontal('izquierda') }} />
+          <img src="/sostenibilidad/FLECHA.png" className="h-[50px] cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => { e.preventDefault(); desplazamientoHorizontal('derecha') }} />
+        </div>
+
+      </section>
 
 
+      
 
 
 
@@ -108,6 +89,10 @@ const Sostenibilidad = () => {
           </div>
         </div>
       </section>
+
+
+
+
 
       <section className="min-h-[60vh] lg:min-h-[30vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
         <div className='flex flex-col gap-2 justify-center items-center w-[90%]'>
