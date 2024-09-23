@@ -32,11 +32,11 @@ const Sostenibilidad = () => {
 
       <section className="bg-center bg-no-repeat bg-cover relative h-[750px] md:h-[650px] lg:h-[900px]" >
 
-        <div className='flex  w-full'>
-          <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="absolute object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
+        <div className='flex w-full '>
+          <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="absolute top-0 object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
         </div>
 
-        <div id="contenedor-desplazable1" className="flex justify-start items-center w-full gap-4 p-1 sm:p-4 md:p-8 min-[900px]:pl-[200px] lg:pl-[400px] xl:pl-[450px]   overflow-x-auto scrollbar-hide ">
+        <div id="contenedor-desplazable1" className="flex justify-start items-center w-full gap-4 p-1 sm:p-4 md:p-8 min-[900px]:pl-[200px] lg:pl-[400px] xl:pl-[450px]   overflow-x-auto scrollbar-hide z-[2] ">
           {
             sostenibilidad1.map((sostenibilidad) => (
               <div key={sostenibilidad.id} className='lg:pt-[15%] opacity5'>
@@ -55,6 +55,8 @@ const Sostenibilidad = () => {
           <img src="/sostenibilidad/FLECHA.png" className="h-[50px] cursor-pointer" alt="Icono Flecha Desplazamiento Derecha" onClick={(e) => { e.preventDefault(); desplazamientoHorizontal('derecha') }} />
         </div>
 
+        
+
       </section>
 
 
@@ -62,13 +64,13 @@ const Sostenibilidad = () => {
 
 
 
-      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD3-O.png)"}} className='relative min-h-screen md:min-h-[70vh] mt-[-1px] bg-cover bg-no-repeat bg-center  text-[#193C34]'>
+      <section style={{backgroundImage: "url(/sostenibilidad/SOSTENIBILIDAD3-O.png)"}} className='relative  h-[750px] mt-[-1px] bg-cover bg-no-repeat bg-center  text-[#193C34]'>
         <div className='flex flex-col gap-8 lg:pl-40 pt-20  md:w-full justify-center items-center lg:justify-start lg:items-start'>
           <div className='flex flex-col gap-2 max-md:justify-center max-md:items-center'>
             <h2 className="text-2xl md:text-3xl font-bold font-['nohemi'] max-md:text-center">SOSTENIBILIDAD</h2>
             <h1 className="text-4xl md:text-5xl font-black font-['alverata'] max-md:text-center">Cultivando un<br />Futuro Responsable</h1>
           </div>
-          <div className='flex h-full gap-4 md:gap-8 '>
+          <div className='flex h-full gap-4 md:gap-8 overflow-hidden'>
             <div className='flex flex-col gap-8 justify-center items-center'>
               <img src="/sostenibilidad/FLECHA.png" className="w-[50px] -rotate-90 hover:cursor-pointer" alt="Icono Flecha Desplazamiento Arriba" onClick={(e) => {e.preventDefault(); desplazamientoVertical('arriba')}} />
               <img src="/sostenibilidad/FLECHA.png" className="w-[50px] rotate-90 hover:cursor-pointer" alt="Icono Flecha Desplazamiento Abajo" onClick={(e) => {e.preventDefault(); desplazamientoVertical('abajo')}}/>
@@ -85,7 +87,7 @@ const Sostenibilidad = () => {
                 ))
               }
             </div>
-            <img src="/sostenibilidad/PALMAS.png" className="max-md:hidden md:flex bottom-[-100px] absolute h-full md:h-[50%] lg:h-full md:right-0 lg:bottom-[-350px] z-[0]" alt="" />
+            <img src="/sostenibilidad/PALMAS.png" className="max-md:hidden md:flex bottom-[-100px] absolute h-full md:h-[60%] md:bottom-[-170px] lg:h-full md:right-0 lg:bottom-[-300px] min-[1300px]:right-[100px] z-[0] " alt="" />
           </div>
         </div>
       </section>
@@ -94,7 +96,7 @@ const Sostenibilidad = () => {
 
 
 
-      <section className="min-h-[60vh] lg:min-h-[30vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
+      <section className="min-h-[60vh] lg:min-h-[50vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
         <div className='flex flex-col gap-2 justify-center items-center w-[90%]'>
           <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
