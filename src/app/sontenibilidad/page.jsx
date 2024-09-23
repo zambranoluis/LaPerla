@@ -28,12 +28,15 @@ const Sostenibilidad = () => {
 
 
 
-      
 
       <section className="bg-center bg-no-repeat bg-cover relative h-[750px] md:h-[650px] lg:h-[900px]" >
 
         <div className='flex w-full '>
-          <img src="/sostenibilidad/SOSTENIBILIDAD2-O.png" alt="Planta con racimo de Banano" className="absolute top-0 object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
+          <img 
+          src="/sostenibilidad/SOSTENIBILIDAD2-O.png" 
+          alt="Planta con racimo de Banano" 
+          loading='lazy'
+          className="absolute top-0 object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
         </div>
 
         <div id="contenedor-desplazable1" className="flex justify-start items-center w-full gap-4 p-1 sm:p-4 md:p-8 min-[900px]:pl-[200px] lg:pl-[400px] xl:pl-[450px]   overflow-x-auto scrollbar-hide z-[2] ">
@@ -41,7 +44,12 @@ const Sostenibilidad = () => {
             sostenibilidad1.map((sostenibilidad) => (
               <div key={sostenibilidad.id} className='lg:pt-[15%] opacity5'>
                 <div className=" flex flex-col  w-[380px] sm:w-[450px] md:w-[550px] h-[650px] md:h-[500px] lg:h-[600px]  bg-[#BCD873] text-[#193C34] p-8 rounded-3xl gap-2" >
-                  <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]" />
+                  <img 
+                  src={sostenibilidad.icono} 
+                  alt={sostenibilidad.titulo} 
+                  loading='lazy'
+                  className="w-[50px]" 
+                  />
                   <h2 className="text-3xl lg:text-5xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
                   <ReactMarkdown className="text-lg font-['nohemi']">{sostenibilidad.texto}</ReactMarkdown>
                 </div>
@@ -80,14 +88,22 @@ const Sostenibilidad = () => {
                 sostenibilidad2.map((sostenibilidad) => (
                   <div className='flex-none pb-[10px]' key={sostenibilidad.id}>
                     <div className=" flex w-[300px] md:w-[500px] h-[200px] md:h-[100px] justify-center items-center gap-4 bg-[#BCD873] text-[#193C34] p-8 rounded-3xl" >
-                      <img src={sostenibilidad.icono} alt={sostenibilidad.titulo} className="w-[50px]"/>
+                      <img 
+                      src={sostenibilidad.icono} 
+                      alt={sostenibilidad.titulo} 
+                      loading='lazy'
+                      className="w-[50px]"/>
                       <p className="text-sm font-bold font-['nohemi']">{sostenibilidad.titulo}: <span className='font-normal'>{sostenibilidad.texto}</span></p>
                     </div>
                   </div>
                 ))
               }
             </div>
-            <img src="/sostenibilidad/PALMAS.png" className="max-md:hidden md:flex bottom-[-100px] absolute h-full md:h-[60%] md:bottom-[-170px] lg:h-full md:right-0 lg:bottom-[-300px] min-[1300px]:right-[100px] z-[0] " alt="" />
+            <img 
+            src="/sostenibilidad/PALMAS.png" 
+            alt=""
+            loading='lazy'
+            className="max-md:hidden md:flex bottom-[-100px] absolute h-full md:h-[60%] md:bottom-[-170px] lg:h-full md:right-0 lg:bottom-[-300px] min-[1300px]:right-[100px] z-[0] "  />
           </div>
         </div>
       </section>
@@ -98,10 +114,18 @@ const Sostenibilidad = () => {
 
       <section className="min-h-[60vh] lg:min-h-[50vh] bg-[#EDEFE1] flex flex-col justify-center items-center  text-[#193C34] relative ">
         <div className='flex flex-col gap-2 justify-center items-center w-[90%]'>
-          <img src="/sostenibilidad/LOGOICONO.png" className='w-[100px] z-[1]' alt="Logo La Perla en Sostenibilidad" />
+          <img 
+          src="/sostenibilidad/LOGOICONO.png" 
+          alt="Logo La Perla en Sostenibilidad"
+          loading='lazy'
+          className='w-[100px] z-[1]'
+          />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
         </div>
-        <img src="/sostenibilidad/PALMAS.png" className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[450px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10' alt="Palmas en Sostenibilidad" />
+        <img src="/sostenibilidad/PALMAS.png"
+        alt="Palmas en Sostenibilidad"
+        loading='lazy'
+        className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[450px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10'  />
       </section>
     </main>
     

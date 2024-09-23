@@ -1,39 +1,10 @@
+import {
+  produccion
+} from "./produccion.js"
+
 const Produccion = () => {
 
-  const produccion = [
-    {
-      id:"produccion1",
-      nombre: "Siembra",
-      icono: "/produccion/SIEMBRA.png",
-      imagen: "/produccion/SIEMBRA1-O.png",
-      texto: "Cultivamos banano con los más altos estándares de calidad, garantizando productos dignos de exportación y reconocimiento internacional. Implementamos prácticas agrícolas responsables que protegen el medio ambiente y contribuyen al desarrollo de nuestra comunidad.",
-      etiquetas: ["Drenaje", "Selección del Clon", "Cablevías", "Densidad de Siembra"]
-    },
-    {
-      id:"produccion2",
-      nombre: "Cultivo",
-      icono: "/produccion/CULTIVO.png",
-      imagen: "/produccion/CULTIVO1-O.png",
-      texto: "Nos enfocamos en el cuidado integral del cultivo de banano, desde la fertilización hasta el control de plagas y enfermedades. Implementamos prácticas agrícolas sostenibles que garantizan la salud y productividad de las plantas.",
-      etiquetas: ["Fertilización", "Protección de Racimo", "Control de Densidad", "Control de Malas Hierbas y Plagas"]
-    },
-    {
-      id:"produccion3",
-      nombre: "Cosecha",
-      icono: "/produccion/COSECHA.png",
-      imagen: "/produccion/COSECHA1-O.png",
-      texto: "Cosechamos el banano en el momento óptimo de maduración, asegurando la máxima calidad y sabor de los frutos. Implementamos prácticas de cosecha cuidadosas para evitar daños a las plantas y garantizar la integridad de los productos.",
-      etiquetas: ["Corte de Fruta", "Transporte a Empacadora", "Programación de Cosecha"]
-    },
-    {
-      id:"produccion4",
-      nombre: "Empaque",
-      icono: "/produccion/EMPAQUE.png",
-      imagen: "/produccion/EMPAQUE1-O.png",
-      texto: "Empacamos el banano de acuerdo a los más altos estándares de calidad e higiene. Utilizamos materiales de empaque biodegradables y resistentes que protegen los frutos durante el transporte y almacenamiento.",
-      etiquetas: ["Recibo de Frutas", "Selección de Fruta", "Desmane", "Lavado y Tratamiento de Corona", "Rotulado", "Pesaje", "Empaque"]
-    }
-  ]
+  
 
   return (
     <main>
@@ -45,7 +16,30 @@ const Produccion = () => {
         </div>
       </section>
 
-      <section className="min-h-screen w-full bg-[#edefe1] rounded-t-[50px] md:rounded-t-[100px] mt-[-95px] text-[#193C34] flex flex-col justify-center items-center">
+      <section className="min-h-screen relative w-full bg-[#edefe1] rounded-t-[50px] md:rounded-t-[100px] mt-[-95px] text-[#193C34] flex flex-col justify-center items-center">
+        
+        <img src="./produccion/HOJA4.png" alt="Hoja de planta decorativa derecha 1" 
+        className="absolute w-[80px] top-0 right-[-10px] rotate-[-25deg] md:top-[40px]"
+        />
+        <img src="./produccion/HOJA4.png" alt="Hoja de planta decorativa derecha 2" 
+        className="absolute w-[80px] rotate-[-25deg] right-[-10px] top-[49%]"
+        />
+
+        <img src="./produccion/HOJA3.png" alt="Hoja de planta decorativa izquierda 1" 
+        className="absolute w-[120px] lg:w-[160px]  left-[-20px] rotate-[180deg] top-[39%] md:top-[22%] lg:top-[20%]"
+        />
+        <img src="./produccion/HOJA3.png" alt="Hoja de planta decorativa izquierda 2" 
+        className="absolute w-[120px] lg:w-[160px] rotate-[180deg] left-[-20px] top-[70%] top:-[]"
+        />
+
+        <img src="./produccion/HOJA2.png" alt="Hoja de planta decorativa centro 1" 
+        className="max-[1200px]:hidden absolute w-[120px] left-[50%] top-[33%] "
+        />
+        <img src="./produccion/HOJA2.png" alt="Hoja de planta decorativa centro 2" 
+        className="max-[1200px]:hidden absolute w-[120px] left-[50%] top-[83%] "
+        />
+        
+        
         <div className="flex flex-col w-full justify-center items-center   gap-8 py-10">
           {
             produccion.map((produccion, index) => (

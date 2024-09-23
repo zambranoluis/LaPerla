@@ -10,13 +10,15 @@ const Inicio = () => {
       <section   className="flex relative w-full ">
         <img
             src="/home/plantaVideo1.png"
-            alt="Hojas de Plantas Derecha" 
+            alt="Hojas de Plantas Derecha"
+            loading='lazy'
             className=" absolute object-contain bottom-[-7%] sm:bottom-[-15%] md:bottom-[-10%] right-0 sm:h-[350px] sm:w-[250px] md:h-[420px] md:w-[300px] lg:h-[500px] lg:w-[350px]"
           />
         
         <img
             src="/home/plantaVideo2.png"
-            alt="Hojas de Plantas Izquierda" 
+            alt="Hojas de Plantas Izquierda"
+            loading='lazy'
             className=" absolute object-contain bottom-[-5%] sm:bottom-[-20%] md:bottom-[-10%] sm:h-[350px] sm:w-[250px] md:h-[350px] md:w-[300px] lg:h-[500px] lg:w-[400px]"
           />
         <div className="z-0 absolute w-full h-full bg-white/30  flex flex-col justify-start  items-center gap-4">
@@ -38,7 +40,8 @@ const Inicio = () => {
       <section className="mt-[-5%] md:mt-[-7%] relative z-[2] bg-[#EDEFE1] rounded-t-[40px] sm:rounded-t-[60px] md:rounded-t-[60px] lg:rounded-t-[100px] h-[370px]   sm:h-[450px]  md:h-[600px]   lg:h-[700px] xl:h-[800px] min-[1400px]:h-[850px] flex " >
         <img
             src="/home/chicaConPlantas.png"
-            alt="mujerConPlantas" 
+            alt="mujerConPlantas"
+            loading='lazy'
             className=" absolute w-full object-contain bottom-0 "
         />
         <div className="absolute flex flex-col top-0 text-[#193C34] bg-pink-500/0 w-[60%] pt-[10%] pl-[8%] min-[500px]:pt-[10%] min-[500px]:pl-[10%] justify-start items-start">
@@ -60,23 +63,26 @@ const Inicio = () => {
         <div id="hojasLastPlantas" className=" ">
           <img
             src="/home/plantaTopLeft.png"
-            
+            loading='lazy'
             alt="hojasLastPlantas" 
             className=" absolute w-[100px]   top-0 left-[10%]"
           />
           <img
             src="/home/plantaBottomLeft.png"
-            alt="hojasLastPlantas" 
+            alt="hojasLastPlantas"
+            loading='lazy'
             className=" absolute w-[150px] lg:w-[200px]   bottom-0 left-[5%] "
           />
           <img
             src="/home/plantaTopRight.png"
-            alt="hojasLastPlantas" 
+            alt="hojasLastPlantas"
+            loading='lazy'
             className=" absolute w-[150px] lg:w-[200px] top-0 right-[10%] "
           />
           <img
             src="/home/plantaRight.png"
-            alt="hojasLastPlantasRight" 
+            alt="hojasLastPlantasRight"
+            loading='lazy'
             className=" absolute h-[100px] right-0 top-[70%] lg:top-[50%] "
           />
           
