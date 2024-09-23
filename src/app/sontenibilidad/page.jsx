@@ -35,7 +35,6 @@ const Sostenibilidad = () => {
           <img 
           src="/sostenibilidad/SOSTENIBILIDAD2-O.png" 
           alt="Planta con racimo de Banano" 
-          loading='lazy'
           className="absolute top-0 object-cover w-full h-full lg:w-[60%] lg:rounded-r-[100px] z-[-1]" />
         </div>
 
@@ -47,7 +46,6 @@ const Sostenibilidad = () => {
                   <img 
                   src={sostenibilidad.icono} 
                   alt={sostenibilidad.titulo} 
-                  loading='lazy'
                   className="w-[50px]" 
                   />
                   <h2 className="text-3xl lg:text-5xl font-bold font-['alverata']">{sostenibilidad.titulo}</h2>
@@ -91,7 +89,6 @@ const Sostenibilidad = () => {
                       <img 
                       src={sostenibilidad.icono} 
                       alt={sostenibilidad.titulo} 
-                      loading='lazy'
                       className="w-[50px]"/>
                       <p className="text-sm font-bold font-['nohemi']">{sostenibilidad.titulo}: <span className='font-normal'>{sostenibilidad.texto}</span></p>
                     </div>
@@ -102,7 +99,6 @@ const Sostenibilidad = () => {
             <img 
             src="/sostenibilidad/PALMAS.png" 
             alt=""
-            loading='lazy'
             className="max-md:hidden md:flex bottom-[-100px] absolute h-full md:h-[60%] md:bottom-[-170px] lg:h-full md:right-0 lg:bottom-[-300px] min-[1300px]:right-[100px] z-[0] "  />
           </div>
         </div>
@@ -117,14 +113,12 @@ const Sostenibilidad = () => {
           <img 
           src="/sostenibilidad/LOGOICONO.png" 
           alt="Logo La Perla en Sostenibilidad"
-          loading='lazy'
           className='w-[100px] z-[1]'
           />
           <p className='text-center z-[1] md:w-[50%] '>En La Perla Nos comprometernos a atender los ámbitos de la Responsabilidad Social Empresarial (RSE), siendo responsables con nuestros grupos de interés, cumplir los requisitos legales que nos aplican y buscar la transparencia, confianza, rendición de cuentas y combatir prácticas de corrupción interna y externamente</p>
         </div>
         <img src="/sostenibilidad/PALMAS.png"
         alt="Palmas en Sostenibilidad"
-        loading='lazy'
         className='absolute z-[0] w-[600px]  md:w-[500px] lg:w-[450px] top-[0%]   lg:right-0  lg:bottom-[-250px] opacity-10'  />
       </section>
     </main>
