@@ -16,7 +16,7 @@ const Produccion = () => {
         </div>
       </section>
 
-      <section className="min-h-screen relative w-full bg-[#edefe1] rounded-t-[50px] md:rounded-t-[100px] mt-[-95px] text-[#193C34] flex flex-col justify-center items-center">
+      <section className="min-h-screen relative overflow-hidden w-full bg-[#edefe1] rounded-t-[50px] md:rounded-t-[100px] mt-[-95px] text-[#193C34] flex flex-col justify-center items-center">
         
         <img src="./produccion/HOJA4.png" alt="Hoja de planta decorativa derecha 1" 
         className="absolute w-[80px] top-0 right-[-10px] rotate-[-25deg] md:top-[40px]"
@@ -26,10 +26,10 @@ const Produccion = () => {
         />
 
         <img src="./produccion/HOJA3.png" alt="Hoja de planta decorativa izquierda 1" 
-        className="absolute w-[120px] lg:w-[160px]  left-[-20px] rotate-[180deg] top-[39%] md:top-[22%] lg:top-[20%]"
+        className="absolute w-[110px] lg:w-[160px]  left-[-20px] rotate-[180deg] top-[37%] md:top-[22%] lg:top-[20%]"
         />
         <img src="./produccion/HOJA3.png" alt="Hoja de planta decorativa izquierda 2" 
-        className="absolute w-[120px] lg:w-[160px] rotate-[180deg] left-[-20px] top-[70%] top:-[]"
+        className="absolute w-[110px] lg:w-[160px] rotate-[180deg] left-[-20px] top-[86%] md:top-[70%]"
         />
 
         <img src="./produccion/HOJA2.png" alt="Hoja de planta decorativa centro 1" 
